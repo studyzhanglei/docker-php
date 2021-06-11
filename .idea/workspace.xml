@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ab55d0-b4f3-4eb0-ab7b-9f4ab6dce6d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1opXM9Pqx9C3leuXIacm21rxA8O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="php5.6/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="php5.6/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.php5.6/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ab55d0-b4f3-4eb0-ab7b-9f4ab6dce6d0" name="Default Changelist" comment="" />
+      <created>1613984454712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613984454712</updated>
+      <workItem from="1613984455788" duration="14062000" />
+      <workItem from="1614322529954" duration="500000" />
+      <workItem from="1614589618696" duration="8091000" />
+      <workItem from="1615431596526" duration="1094000" />
+      <workItem from="1616405986213" duration="347000" />
+      <workItem from="1616577986429" duration="609000" />
+      <workItem from="1616654485718" duration="438000" />
+      <workItem from="1616661442069" duration="1399000" />
+      <workItem from="1617075181397" duration="9000" />
+      <workItem from="1618212817666" duration="53000" />
+      <workItem from="1619168729109" duration="1126000" />
+      <workItem from="1619402966235" duration="2000" />
+      <workItem from="1619680259605" duration="470000" />
+      <workItem from="1619681975216" duration="5000" />
+      <workItem from="1619686617811" duration="547000" />
+      <workItem from="1620351349151" duration="209000" />
+      <workItem from="1620365906951" duration="32000" />
+      <workItem from="1621823611480" duration="1303000" />
+      <workItem from="1622536329894" duration="14000" />
+      <workItem from="1622536353281" duration="467000" />
+      <workItem from="1623056423369" duration="267000" />
+      <workItem from="1623118402755" duration="5338000" />
+      <workItem from="1623209560033" duration="8000" />
+      <workItem from="1623291071302" duration="1244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613984974449">
+      <screen x="0" y="25" width="1680" height="936" />
+    </state>
+    <state x="304" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.936@0.25.1680.936" timestamp="1613984974449" />
+    <state x="590" y="300" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614736764564">
+      <screen x="0" y="25" width="1680" height="936" />
+    </state>
+    <state x="590" y="300" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.936@0.25.1680.936" timestamp="1614736764564" />
+    <state x="349" y="129" key="SettingsEditor" timestamp="1613984461339">
+      <screen x="0" y="25" width="1680" height="936" />
+    </state>
+    <state x="349" y="129" key="SettingsEditor/0.25.1680.936@0.25.1680.936" timestamp="1613984461339" />
+    <state x="621" y="138" width="678" height="725" key="find.popup" timestamp="1619680662493">
+      <screen x="0" y="25" width="1920" height="950" />
+    </state>
+    <state x="543" y="136" width="593" height="714" key="find.popup/0.25.1680.936@0.25.1680.936" timestamp="1614049213909" />
+    <state x="621" y="138" width="678" height="725" key="find.popup/0.25.1920.950/-1680.25.1680.1025@0.25.1920.950" timestamp="1619680662493" />
+  </component>
+</project>

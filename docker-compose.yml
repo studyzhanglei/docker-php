@@ -1,0 +1,67 @@
+version: '3.4'
+services:
+  php7.4:
+    container_name: php7.4
+    build:
+      context: ./php7.4
+    environment:
+      - APP_ENV=local
+    stdin_open: true
+    working_dir: /home/www/
+    ports:
+      - "7778:83"
+      - "7780:81"
+      - "7781:82"
+      - "7782:84"
+      - "5921:5921"
+    volumes:
+      - "../rebuilt.pre.ilovexclub.com:/home/www/rebuilt.pre.ilovexclub.com"
+      - "../user.rebuilt.pre.ilovexclub.com:/home/www/user.rebuilt.pre.ilovexclub.com"
+      - "../content.rebuilt.pre.ilovexclub.com:/home/www/content.rebuilt.pre.ilovexclub.com"
+      - "./php7.4/etc/nginx:/etc/nginx/conf.d"
+      - "./php7.4/gocron:/var/www/gocron"
+      - "./php7.4/etc/php/php.ini:/usr/local/etc/php/php.ini"
+    networks:
+      mynetwork:
+    command: ["sh", "-c", "/bin/start.sh"]
+  php7.0:
+    container_name: php7.0
+    build:
+      context: ./php7.0
+    environment:
+      - APP_ENV=local
+    stdin_open: true
+    working_dir: /home/www/
+    ports:
+      # - "19000:9000"
+      - "7779:81"
+    volumes:
+      - "../xclub_new_backend:/home/www/xclub_new_backend"
+      - "../xclub_script:/home/www/xclub_script"
+      - "./php7.0/etc/nginx:/etc/nginx/conf.d"
+    networks:
+      mynetwork:
+    command: [ "sh", "-c", "/bin/start.sh" ]
+  consul:
+    image: consul
+    container_name: consul
+#     restart: always
+    ports:
+      - "8500:8500"
+    networks:
+      mynetwork:
+  php5.6:
+    image: php5.6
+    container_name: php5.6
+    build:
+      context: ./php5.6
+    environment:
+      - APP_ENV=local
+    stdin_open: true
+    working_dir: /home/www/
+    volumes:
+      - "../xclub_script:/home/www/xclub_script"
+    networks:
+      mynetwork:
+networks:
+  mynetwork:
